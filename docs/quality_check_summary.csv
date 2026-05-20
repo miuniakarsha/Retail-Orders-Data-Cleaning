@@ -1,0 +1,13 @@
+Quality Check,Result
+Total Rows,1200
+Total Columns,14
+Total Missing Values,0
+Duplicate Rows,0
+Duplicate OrderID Values,0
+Invalid Dates,0
+Incorrect Date Formats,0
+Negative Quantity Values,0
+Negative UnitPrice Values,0
+Negative ItemsInCart Values,0
+Negative TotalPrice Values,0
+Incorrect TotalPrice Rows,0
