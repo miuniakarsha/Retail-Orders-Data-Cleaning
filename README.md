@@ -1,64 +1,166 @@
-# \# Retail Orders Data Cleaning Project
+### **# Retail Orders Data Cleaning \& Sales Analysis Project**
 
 # 
 
-# \## Project Overview
+#### **## Project Overview**
 
 # 
 
-# This project focuses on cleaning and preparing a raw retail orders dataset for analysis.
+This project focuses on cleaning, preparing, storing, analyzing, and visualizing a retail orders dataset.
+
+
+
+The main objective of the project is to transform a raw dataset into a clean, reliable, and analysis-ready dataset by handling missing values, duplicate records, incorrect date formats, inconsistent text values, and numeric validation issues.
+
+
+
+After cleaning the dataset, the cleaned data was stored in a SQLite database, analyzed using SQL queries, and visualized using Power BI.
+
+
+
+\---
 
 # 
 
-# The main goal is to identify and fix data quality issues such as missing values, duplicate records, incorrect date formats, inconsistent text values, and invalid numeric values.
+#### **## Project Goal**
 
 # 
 
-# \## Tools Used
+The goal of this project is to prove that the dataset is ready for business analysis by completing the following tasks:
+
+
+
+\- Identify missing or null values
+
+\- Remove duplicate records
+
+\- Validate unique OrderID values
+
+\- Correct and standardize date formats
+
+\- Standardize text/category columns
+
+\- Validate numeric columns
+
+\- Check TotalPrice using Quantity × UnitPrice
+
+\- Store cleaned data in a database
+
+\- Perform SQL-based business analysis
+
+\- Build a Power BI dashboard
+
+
+
+\---
 
 # 
 
-# \- Python
-
-# \- Anaconda
-
-# \- JupyterLab
-
-# \- SQLite
-
-# \- SQL
-
-# \- Power BI
-
-# \- Streamlit
-
-# \- GitHub
+#### **## Tools Used**
 
 # 
 
-# \## Project Structure
+\- Python
+
+\- Pandas
+
+\- JupyterLab
+
+\- SQLite
+
+\- SQL
+
+\- Power BI
+
+\- GitHub
+
+\- GitHub Desktop
+
+
+
+\---
 
 # 
 
-# ```text
+#### **## Dataset Description**
 
-# data/raw/        Original dataset
+# 
 
-# data/processed/  Cleaned dataset
+The dataset contains retail order records with customer, product, payment, coupon, referral, and order status details.
 
-# notebooks/       Jupyter notebooks for exploration
 
-# scripts/         Python scripts for cleaning and validation
 
-# database/        SQLite database
+Main columns include:
 
-# sql/             SQL queries
 
-# powerbi/         Power BI dashboard files
 
-# app/             Streamlit app
+| Column | Description |
 
-# docs/            Documentation
+|---|---|
 
-# assets/          Screenshots and images
+| OrderID | Unique order identifier |
+
+| Date | Order date |
+
+| CustomerID | Unique customer identifier |
+
+| Product | Product ordered |
+
+| Quantity | Number of units ordered |
+
+| UnitPrice | Price per unit |
+
+| ShippingAddress | Shipping location |
+
+| PaymentMethod | Payment method used |
+
+| OrderStatus | Current order status |
+
+| TrackingNumber | Order tracking number |
+
+| ItemsInCart | Number of items in cart |
+
+| CouponCode | Coupon used for the order |
+
+| ReferralSource | Customer referral source |
+
+| TotalPrice | Final order total |
+
+
+
+\---
+
+# 
+
+#### **## Project Workflow**
+
+# 
+
+```text
+
+Raw Dataset
+
+&#x20;    ↓
+
+Data Audit
+
+&#x20;    ↓
+
+Data Cleaning
+
+&#x20;    ↓
+
+Quality Check Proof
+
+&#x20;    ↓
+
+SQLite Database
+
+&#x20;    ↓
+
+SQL Analysis
+
+&#x20;    ↓
+
+Power BI Dashboard
 
