@@ -64,6 +64,7 @@ Main columns in the dataset:
 | ReferralSource  | Customer referral source   |
 | TotalPrice      | Final order total          |
 
+> Note: This dataset was provided by DecodeLabs as part of the Data Analytics Industrial Training Kit. The dataset is sample/fake data used for learning and portfolio purposes. It does not contain real customer information.
 ---
 
 ## Project Workflow
@@ -431,6 +432,15 @@ This project demonstrates that strong data analysis starts with clean, reliable,
 - Portfolio project presentation
 
 ---
+
+## Dataset Source
+
+The dataset used in this project was provided by DecodeLabs as part of the Data Analytics Industrial Training Kit - Project 1: Data Cleaning & Preparation.
+
+The dataset is sample/fake data and is used in this repository for educational and portfolio purposes.
+
+Attribution: DecodeLabs
+
 
 ## Author
 
